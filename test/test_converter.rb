@@ -46,6 +46,36 @@ module Embulk
           assert_equal Converter.get_sources(results, fields), [["AVTCxiCuNR-BVKOgUB7R", 1, "dummy title"]]
         end
       end
+
+      sub_test_case "convert_value" do
+        def test_string
+
+        end
+
+        def test_long
+
+        end
+
+        def test_double
+
+        end
+
+        def test_timestamp
+
+        end
+
+        def test_json
+
+        end
+
+        def test_boolean
+
+        end
+
+        def test_typecast_error
+
+        end
+      end
     end
   end
 end
